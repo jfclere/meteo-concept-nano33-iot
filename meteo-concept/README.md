@@ -4,6 +4,7 @@ You need:
 - WiFiNINA library.
 
 - Create arduino_secrets.h with something like:
+```
 /* Wifi ID / PASSWORD */
 #define MY_SSID "jfc"
 #define MY_PASS "APACHECON2022"
@@ -14,9 +15,10 @@ You need:
 #define BASE_URI "/api/forecast/nextHours"
 #define TOKEN "hex_toke"
 #define LOC_INSEE "91457"
+```
 
-- USe minicom to test the output is something like:
-+++
+- Use minicom to test the output is something like:
+```
 Attempting to connect to WPA SSID: MOVISTAR_E290
 You're connected to the networkSSID: MOVISTAR_E290
 BSSID: 34:57:60:BF:E2:91
@@ -112,4 +114,4 @@ gitude":2.2657,"altitude":85},"update":"2024-08-18T11:20:03+02:00","forecast":[{
 024-08-18T15:00:00+0200","temp2m":22,"rh2m":48,"wind10m":13,"gust10m":35,"dirwin
 d10m":313,"rr10":0,"rr1":0,"probarain":0,"weather":3,"probafrost":0,"probafog":0
 ...
-+++
+```
